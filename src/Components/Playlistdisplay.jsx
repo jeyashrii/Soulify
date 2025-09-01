@@ -1,5 +1,5 @@
 import React from "react";
-import "./playlistdisplay.css";
+import "./Playlistdisplay.css";
 import { Link, useLocation } from "react-router-dom";
 import useSound from "use-sound";
 import buttonSound from "../assets/sounds/mouse-click.mp3";

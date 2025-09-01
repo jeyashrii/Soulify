@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: transparent;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 2rem;
+}
+.header img {
+  cursor: pointer;
+  width: 4rem;
+}
+@media (max-width: 900px) {
+  .header img {
+    width: 4rem;
+  }
+}
+@media (max-width: 500px) {
+  .header img {
+    width: 3rem;
+  }
+}

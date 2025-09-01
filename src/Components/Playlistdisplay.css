@@ -1,0 +1,77 @@
+.container {
+  min-height: 100vh;
+  width: 100%;
+
+  padding: 3rem;
+
+  background-attachment: fixed;
+  gap: 3rem;
+}
+.playlist-box {
+  padding: 4rem 3rem;
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  width: 90%;
+  background-color: #e4b1e9;
+  background-color: #a3bbea;
+  background: transparent;
+}
+.playlist-head {
+  text-align: center;
+}
+.playlist-head span {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-decoration: underline;
+}
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+@media (max-width: 900px) {
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .playlist-box {
+    width: 95%;
+  }
+}
+@media (max-width: 500px) {
+  .grid-container {
+    grid-template-columns: 1fr;
+  }
+}
+.track-div {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 1rem;
+  background-color: #a3bbea;
+  background-color: #e4b1e9;
+  padding: 1rem 2rem;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  gap: 2rem;
+  padding: 2rem 0;
+}
+.left p:first-child {
+  font-size: 2rem;
+
+  font-weight: 600;
+}
+.left p:last-child {
+  font-size: 1.5rem;
+}
+.button-div {
+  width: 5rem;
+  height: 5rem;
+}
+.btn-img {
+  width: 100%;
+}

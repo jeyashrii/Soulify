@@ -3,6 +3,7 @@ import "./Home.css";
 import useSound from "use-sound";
 import buttonSound from "../assets/sounds/mouse-click.mp3";
 import { useNavigate } from "react-router-dom";
+
 const Home = () => {
   const navigate = useNavigate();
   const [playSound] = useSound(buttonSound);

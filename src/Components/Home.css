@@ -11,10 +11,16 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #a3bbea;
 }
-.start btn {
-  background-color: transparent;
+.start button {
+  font-size: 3rem;
   border: none;
   outline: none;
+  background-color: #b893df;
+
+  padding: 1rem 2rem;
+  border-radius: 8px;
+}
+.start button:hover {
+  transform: scale(1.5);
 }

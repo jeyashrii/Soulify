@@ -1,4 +1,5 @@
 # Soulify 🎵  
+checkout the live site : https://soulify-yr6m.vercel.app/
 A mood-based music app where users can select their mood and get curated playlists.  
 
 ## Features  

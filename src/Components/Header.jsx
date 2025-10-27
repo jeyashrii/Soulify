@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Header.css";
-import play from "../assets/images/play-icon.png";
 import volumeIcon from "../assets/icons/volume-on.png";
 import volumeOffIcon from "../assets/icons/volume-off.png";
 const Header = () => {

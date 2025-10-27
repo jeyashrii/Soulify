@@ -13,11 +13,11 @@ function App() {
         <Header></Header>
         <Router>
           <Routes>
-            <Route path="/" element={<Home></Home>}></Route>
-            <Route
+            <Route path="/" element={<MoodSelection></MoodSelection>}></Route>
+            {/* <Route
               path="/moodSelection"
               element={<MoodSelection></MoodSelection>}
-            ></Route>
+            ></Route> */}
             <Route
               path="/playlistdisplay"
               element={<Playlistdisplay></Playlistdisplay>}
